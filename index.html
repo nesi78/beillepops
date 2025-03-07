@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Accueil</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bordure">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="page2.html">La Reine des Abeilles</a></li>
+                    <li><a href="quiz.html">Quiz sur les Abeilles</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+   
+    <div class="intro">
+        <h1>Bienvenue sur le monde des abeilles !</h1>
+        <p>Les abeilles sont bien plus que de simples insectes. Elles sont au cœur de notre écosystème et jouent un rôle vital dans la pollinisation de nombreuses plantes.</p>
+    </div>
+
+    <h2>Les abeilles : Un rôle essentiel pour notre planète</h2>
+    <div class="Centrer">
+        <a href="images/abeille2-Copie.jpg" target="_blank">
+
+            <img src="images/abeille2.jpg" alt="Une abeille sur une fleur" width="300">
+        </a>
+    </div>
+
+    <p>
+        Les abeilles jouent un rôle essentiel dans la pollinisation des plantes, ce qui contribue directement à la biodiversité et à la production alimentaire. Ces insectes sociaux vivent en colonies organisées autour d'une reine et sont capables de communiquer par des "danses" pour indiquer la direction des sources de nectar. Leur disparition représente une menace pour l'équilibre écologique et l'agriculture.
+    </p>
+    
+    <h3>Pourquoi protéger les abeilles ?</h3>
+    <p>La disparition des abeilles peut avoir des conséquences dramatiques sur l'environnement et la chaîne alimentaire. Découvrez comment vous pouvez aider à les protéger !</p>
+
+    <ul>
+        <li><a href="https://www.petit-guide-pollinisateurs.org/">Planter des fleurs pour les abeilles</a></li>
+        <li><a href="https://www.liguepourlesoiseaux.org/">Soutenir les initiatives pour la protection des abeilles</a></li>
+    </ul>
+    <section class="gallery-container">
+        <h2>Mon projet : Les abeilles et leur importance</h2>
+        <div class="gallery">
+            <img src="images/abeille2.jpg" alt="Abeille en vol">
+            <img src="images/miel.jpg" alt="Ruche d'abeilles">
+            <img src="images/dvlpDomestiqueReine.jpg" alt="Abeille sur une fleur">
+            <img src="images/reineAbeille.jpg" alt="Abeille butinant">
+            <img src="images/abeilles.png" alt="Abeille et pollen">
+            <img src="images/dvlpDomestiqueReine.jpg" alt="Abeille et ruche">
+        </div>
+    </section>
+    <form method="get">
+        <fieldset>
+           <legend>Vos coordonnées</legend> <!-- Titre du fieldset --> 
+           <label for="nom">Quel est votre nom ?</label>
+           <input type="text" name="nom" id="nom"  required>
+           <label for="prenom">Quel est votre prénom ?</label>
+           <input type="text" name="prenom" id="prenom">
+           <label for="email">Quel est votre e-mail ?</label>
+           <input type="email" name="email" id="email" autofocus required>
+        </fieldset>
+        <fieldset>
+           <legend>Votre souhait</legend> <!-- Titre du fieldset -->
+           <p>
+              Faites un souhait que vous voudriez voir exaucé :
+              <label for="proteger">Protéger les abeilles et leur habitat</label>
+              <input type="radio" name="souhait" value="proteger" id="proteger"> 
+             
+              <label for="fleurs">Planter plus de fleurs mellifères</label>
+              <input type="radio" name="souhait" value="fleurs" id="fleurs"> 
+              
+              <label for="apiculture">Encourager une apiculture respectueuse</label>
+              <input type="radio" name="souhait" value="apiculture" id="apiculture"> 
+              
+              <label for="sensibiliser">Sensibiliser à l’importance des abeilles</label>
+              <input type="radio" name="souhait" value="sensibiliser" id="sensibiliser"> 
+              
+           </p>
+           
+           <p>
+              <label for="precisions">Si "Autre", veuillez préciser :</label>
+              <textarea name="precisions" id="precisions" cols="40" rows="4"></textarea>
+              
+           </p>
+           <input type="submit" value="Envoyer" >
+           
+           
+        </fieldset>
+      </form>
+
+    <footer>
+        <div class="social">
+            <a href="index.html"><img src="images/logoAbeille.png" alt="mon logo" width="50"></a>
+            <a href="https://twitter.com/"><img src="images/twitter2.png" alt="logo X" width="50" class="social-icon"></a>
+            <a href="https://www.instagram.com/"><img src="images/Instagram.svg.png" alt="logo insta" width="50" class="social-icon"></a>
+        </div>
+        <p>© 2024 Les Abeilles - Tous droits réservés</p>
+    </footer>
+</body>
+
+</html>

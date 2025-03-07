@@ -1,0 +1,125 @@
+/* Style de la barre de navigation */
+nav {
+    background-color: #FFB300;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #3E3E3E;
+}
+
+/* Style de la section principale */
+.bordure {
+    background-image: url(images/couliMiel.png);
+    background-position: bottom center;
+    background-size: auto 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+.Centrer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Centrer img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #FFB300;
+    border-radius: 10px;
+}
+
+/* Style du contenu d'introduction */
+.intro {
+    margin: 20px;
+    padding: 20px;
+    background-color: #FAF0E6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-quiz {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFB300;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-quiz:hover {
+    background-color: #FF8000;
+}
+
+/* Style de la section d'informations */
+.infos {
+    margin: 30px 0;
+}
+
+.infos h2 {
+    text-align: center;
+    color: #6b4e0b;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #FFB300;
+}
+
+ul {
+    list-style-type: square;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #FFB300;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.social {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 10px;
+}

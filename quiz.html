@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sur les Abeilles</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bordure">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="page2.html">La Reine des Abeilles</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main>
+        <h1>Quiz sur les Abeilles</h1>
+
+        <form class="quiz-container" action="#resultat" method="post">
+            <!-- Question 1 -->
+            <div class="question-block">
+                <p>1. Quelle est la durée de vie moyenne d'une abeille ouvrière en été ?</p>
+                <label><input type="radio" name="q1" value="false"> 1-2 semaines</label><br>
+                <label><input type="radio" name="q1" value="true"> 6 semaines</label><br>
+                <label><input type="radio" name="q1" value="false"> 6 mois</label>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question-block">
+                <p>2. Comment les abeilles communiquent-elles entre elles ?</p>
+                <label><input type="radio" name="q2" value="false"> Par des cris</label><br>
+                <label><input type="radio" name="q2" value="true"> Par des danses</label><br>
+                <label><input type="radio" name="q2" value="false"> Par des signaux lumineux</label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question-block">
+                <p>3. Quel est le rôle principal de la reine des abeilles ?</p>
+                <label><input type="radio" name="q3" value="true"> Pondre des œufs</label><br>
+                <label><input type="radio" name="q3" value="false"> Chercher du nectar</label><br>
+                <label><input type="radio" name="q3" value="false"> Protéger la ruche</label>
+            </div>
+
+            <input type="submit" value="Vérifier mes réponses">
+        </form>
+
+        <!-- Résultat affiché après soumission -->
+        <section id="resultat">
+            <h2>Résultat</h2>
+            <p>Réponses correctes :</p>
+            <ol>
+                <li>6 semaines</li>
+                <li>Par des danses</li>
+                <li>Pondre des œufs</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="index.html"><img src="images/logoAbeille.png" alt="mon logo" width="50"></a>
+            <a href="https://twitter.com/"><img src="images/twitter2.png" alt="logo X" width="50" class="social-icon"></a>
+            <a href="https://www.instagram.com/"><img src="images/Instagram.svg.png" alt="logo insta" width="50" class="social-icon"></a>
+        </div>
+        <p>© 2024 Les Abeilles - Tous droits réservés</p>
+    </footer>
+</body>
+</html>

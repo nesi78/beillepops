@@ -1,0 +1,16 @@
+.bouton_rouge
+{
+    display: inline-block;
+    height: 25px; /* Fixe la hauteur de l’élément à 25 pixels.*/
+    position: absolute; /* Positionne l’élément de manière absolue par rapport à son conteneur parent positionné*/
+    right: 5px; /*Place l’élément à 5 pixels du bord droit (right) de son conteneur*/
+    bottom: 5px; /* Place l’élément à 5 pixels du bord inferieur (bottom) de son conteneur*/
+    background: url('images/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center; /*Centre le texte horizontalement à l’intérieur de l’élément.*/
+    padding: 3px 8px 0px 8px;
+    color: white; /*Change la couleur du texte en blanc*/
+    text-decoration: none;
+}

@@ -1,0 +1,12 @@
+h1{
+    color: red;
+}
+h2{
+    color: green;
+}
+p{
+    color: blue;
+}
+p:nth-of-type(2), 
+p:nth-of-type(4) 
+{ color: orange; }

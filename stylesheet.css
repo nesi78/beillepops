@@ -178,4 +178,9 @@ td, th {
     text-align: left;
     background-color: #f0f0f0; /* Même couleur pour chaque cellule */
     color: #222;
+} 
+.dotted-border {
+    border: 4px dotted #ecdfdf; /* Bordure de 2 pixels en pointillés de couleur noire */
+    padding: 15px; /* Espacement interne pour éviter que le contenu touche la bordure */
+    margin-bottom: 20px; /* Marge inférieure pour séparer les sections */
 }

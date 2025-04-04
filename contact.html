@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPFCV : Les Caves à Vin</title>
+    <link href="stylesheet.css" rel="stylesheet">
+
+</head>
+<body>
+    <header id="entete">
+        <img id="logo" src="logo.png" alt="Logo SPFCV">
+        <h1>SFCV</h1>
+        <h3>N°1 des caves à vins</h3>
+        </header>
+        <div class="container">
+        <nav id="menu">
+            <ul>
+                <li><a href="index3.html">Acceuil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="produits.html">Produits</a></li>
+                <li><a href="mention.html">Mentions légales</a></li>
+
+
+            </ul>
+        </nav>
+    <main id="bloc">
+        <section>
+  
+        <h1>Demande de catalogue</h1>
+        <p>Demandez-nous vite notre catalogue gratuit !<br>
+        Il vous sera livré dans les meilleurs délais.</p>
+        <form action="mailto:example@email.com" method="post">
+            <label for="civilite">Civilité :</label>
+            <select id="civilite" name="civilite">
+                <option value="mr" selected>Monsieur</option>
+                <option value="mme">Madame</option>
+                <option value="mlle">Mademoiselle</option>
+            </select><br><br>
+            
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" value="" required><br><br>
+            
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" value="" required><br><br>
+            
+            <label for="adresse">Adresse :</label><br>
+            <textarea id="adresse" name="adresse" rows="3" cols="40" placeholder="Entrez votre adresse ici..." required></textarea><br><br>
+            
+            <label for="ville">Ville :</label>
+            <input type="text" id="ville" name="ville" value="" required>
+            
+            <label for="code_postal">Code postal :</label>
+            <input type="text" id="code_postal" name="codepostal" value="" required><br><br>
+            
+            <input type="checkbox" id="newsletter" name="newslettre" value="oui">
+            <label for="newsletter">Je souhaite recevoir la newsletter</label>
+            <label for="courriel"> - courriel :</label>
+            <input type="email" id="courriel" name="email" value=""><br><br>
+            
+            <button type="submit" name="action" value="Envoyer">Envoyer</button>
+        </form>
+        </div>
+</section>
+</main>
+</div>
+    <footer id="pied">
+        <hr>
+        <p>© SFCV - <a href="mentions.html">Mentions légales</a></p>
+        <p>L'abus d'alcool est dangereux pour la santé, à consommer avec modération.</p>
+    </footer>
+</body>
+</html> 
+
+

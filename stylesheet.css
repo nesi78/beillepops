@@ -1,0 +1,181 @@
+/* ================= STRUCTURE ================= */
+body { 
+    margin: 0;
+    padding: 0;
+    background-image: url(images/fond.jpg); 
+    background-color: #3F3F3F;
+    background-repeat: repeat-y;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* HEADER */
+#entete { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #444;
+    width: 100%;
+    text-align:left;
+}
+
+#logo { 
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+#entete h1 {
+    font-size: 22px;
+    color: gray;
+    margin: 0;
+}
+
+#entete h3 {
+    font-size: 10px;
+    color: gray;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* MENU LATÉRAL */
+.container {
+    display: flex;
+}
+
+#menu {
+    width: 200px;
+    background-color: #444;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+#menu ul { 
+    padding: 0;
+    list-style-type: none;
+}
+
+#menu li {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+#menu li:hover {
+    background-color: white;
+}
+
+#menu a { 
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    display: block;
+}
+
+#menu a:hover {
+    color: gray;
+}
+/* HEADER */
+#entete { 
+    display: flex;
+    flex-direction: row; /* Aligner les éléments en ligne */
+    align-items: center;
+    justify-content: flex-start; /* Aligner tout à gauche */
+    padding: 10px;
+    background-color: #444;
+    width: 100%;
+    text-align: left;
+}
+
+#logo { 
+    height: 50px;
+    margin-right: 10px; /* Espace entre le logo et le texte */
+}
+
+#entete h1, #entete h3 {
+    margin: 0;
+    color: white;
+}
+
+/* FOOTER */
+#pied {
+    padding: 10px;
+    font-size: 10px;
+    font-style: italic;
+    background-color: #222;
+    width: 100%;
+}
+
+
+/* CONTENU PRINCIPAL */
+#bloc { 
+    flex-grow: 1;
+    padding: 20px;
+    border-left: 2px solid gray;
+}
+
+#bloc h2 {
+    font-size: 18px;
+    color: white;
+}
+
+#bloc h3 {
+    font-size: 16px;
+    color: white;
+}
+
+ol {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+#pied {
+    text-align: right;
+    padding: 10px;
+    font-size: 10px;
+    font-style: italic;
+    background-color: #222;
+    width: 100%;
+}
+
+hr {
+    margin: 0;
+    border: 1px solid gray;
+}
+
+/* LIENS */
+a {
+    text-decoration: underline;
+    font-size: 12px;
+    color: white;
+}
+
+a.backlink {
+    font-size: 10px;
+    font-style: italic;
+    color: white;
+}
+
+a.backlink:hover {
+    color: #AEAEAE;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f0f0f0; /* Gris clair pour tout le tableau */
+    margin-bottom: 20px;
+}
+
+td, th {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: left;
+    background-color: #f0f0f0; /* Même couleur pour chaque cellule */
+    color: #222;
+}
